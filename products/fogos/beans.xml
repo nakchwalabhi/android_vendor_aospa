@@ -15,6 +15,9 @@
   <!-- Motorola hardware (MotoActions, MotoCommonOverlay, sepolicy). -->
   <project path="hardware/motorola"              name="nakchwalabhi/android_hardware_motorola"                   remote="github" revision="aospa" />
 
+  <!-- EUICC policy app (MotoEuicc requires the EuiccPolicy module). -->
+  <project path="packages/apps/EuiccPolicy"      name="LineageOS/android_packages_apps_EuiccPolicy"              remote="github" revision="lineage-23.0" />
+
   <!-- NFC: fogos uses the Samsung SLSI NFC HAL. -->
   <project path="hardware/samsung_slsi/nfc"      name="LineageOS/android_hardware_samsung_slsi_nfc"              remote="github" revision="lineage-23.0" />
 
